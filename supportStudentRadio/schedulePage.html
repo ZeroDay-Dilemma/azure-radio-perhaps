@@ -211,7 +211,7 @@
   </header>
   <nav class="tabs">
     <ul>
-      <li><a href="radio_listener.html">Listen!</a></li>
+      <li><a href="index.html">Listen!</a></li>
       <li><a href="schedulePage.html">Schedule</a></li>
       <li><a href="baseDJPage.html">Explore our shows!</a></li>
     </ul>
@@ -576,7 +576,7 @@
         const isLiveBool = isEventLive(eventInfoJson);
         specialEventTitle.innerHTML = eventDisplayTitle + `<span id="isLiveDot" style="color=var(--Red)">${isLiveBool ? "●LIVE" : ""}</span>`;
         if (isLiveBool) {
-          specialEventLink.href = "radio_listener.html";
+          specialEventLink.href = "index.html";
         }
         specialEventLink.classList.add("special-event-enabled");
         specialEventTitle.classList.add("special-event-enabled");
